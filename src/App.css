@@ -1,0 +1,168 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(228, 223, 232);
+  color: rgb(43, 41, 44);
+}
+
+.forForm {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./assets/samurai\ on\ purple\ planet.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.form {
+  padding: 30px;
+  /* border: 2px solid darkblue; */
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  width: 100%;
+}
+
+
+
+.posts {
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  gap: 30px;
+}
+
+.post {
+  padding: 15px;
+  border-bottom: 2px solid rgb(242, 241, 243);
+  width: 66%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 66%;
+  gap: 30px;
+  position: relative;
+}
+
+span {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+img {
+  width: 33%;
+  height: 100%;
+}
+
+.post-buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+h2 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+textarea {
+  resize: none;
+  width: 40%;
+  border-radius: 20px;
+  border: 2px solid rgb(242, 241, 243);
+  padding: 10px;
+  outline: 0;
+  background: #fdd8f5;
+
+}
+
+textarea:hover {
+  border: 2px solid rgb(178, 144, 213);
+  transition: 300ms;
+}
+
+textarea:focus {
+  border: 2px solid rgb(178, 144, 213);
+  transition: 300ms;
+}
+
+input {
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid rgb(242, 241, 243);
+  border-radius: 10px;
+  outline: 0;
+  background: #fdd8f5;
+}
+
+input:hover {
+  border: 2px solid rgb(178, 144, 213);
+  transition: 300ms;
+}
+
+input:focus {
+  border: 2px solid rgb(178, 144, 213);
+  transition: 300ms;
+}
+
+label {
+  font-size: larger;
+  font-weight: 600;
+  background: #61616145;
+  padding: 20px;
+  color: #fdd8f5;
+}
+
+button {
+  background-color: rgb(212, 168, 254);
+  padding: 25px;
+  color: rgb(242, 241, 243);
+  border: 2px solid rgb(242, 241, 243);
+  border-radius: 10px;
+  cursor: pointer;
+  width: 200px;
+}
+
+button:hover {
+  border: 2px solid rgb(178, 144, 213);
+  transition: 300ms;
+}
+
+.noPost {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  color: #fdd8f5;
+  font-size: x-large;
+}
+
+h4 {
+  color: #fdd8f5;
+  font-size: xx-large;
+  background: #61616145;
+  padding: 20px;
+  position: absolute;
+  bottom: 0;
+}
+
+h3 {
+  margin: 0;
+}
